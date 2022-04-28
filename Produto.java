@@ -1,8 +1,6 @@
 public class Produto {
     String produto;
     Integer quantidadeNoEstoque;
-
-
     public Produto(String produto, Integer quantidadeNoEstoque) {
         this.produto = produto;
         this.quantidadeNoEstoque = quantidadeNoEstoque;
@@ -13,5 +11,4 @@ public class Produto {
         }
         return false;
         }
-
 }
